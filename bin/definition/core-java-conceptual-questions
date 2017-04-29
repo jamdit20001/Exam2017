@@ -3,21 +3,68 @@ Please answer the below core-java Questions:
 
 What jdk contains or composed of and define each components?
 What is IDE?
+Ans: An integrated development environment (IDE) is a software suite that consolidates the basic tools developers need to write and test software. Typically, an IDE contains a code editor, a compiler or interpreter and a debugger that the developer accesses through a single graphical user interface (GUI).
 What are the IDEs available in the market to support java?
+Ans:Eclipse, Netbeans, BlueJ, JCreator, IntelliJ IDEA, Borland J Builder, Dr. Java
 Explain the entire java life cycle.
+Ans: The compiler:
+When you compile a java file it is written with the extension .java. for example A.java 
+The job of the compiler is to convert the ‘A.java’ into byte code (machine language) which will appear as ‘A.class’ 
+The next step is to load the A.class into JVM (Java virtual machine)
+ 
+JVM component:
+JVM has the following components:
+Class loader (java): the class loader is also called java which loads the class file into the JVM
+Bytecode verifier:
+The byte code verifier verifies the byte codes that is loaded. 
+Execution engine (JIT code generator): In the next step the JIT(just in time ) code generator converts the byte code into binary machine language which is understood by the operating system.
+ 
+
 what is class?
+Ans:A class is nothing but a blueprint or a template for creating different objects which defines its properties and behaviors. Java class objects exhibit the properties and behaviors defined by its class. A class can contain fields and methods to describe the behavior of an object.
 What is object?
+Ans:An object is an instance of a class. Class − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type support.
 What is the entry point of an application?
+Ans: entry point is where control is transferred from the operating system to a computer program, at which place the processor enters a program or a code fragment and execution begins.
 Why main is static?
-What is the difference between an Interface and Abstract class?
+ans:This is neccesary because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class.
+What are the different between Interface and Abstract class?
+Ans: Interface:  You can only declare method.
+
+Abstract class: you can implemnet non-abstract method and declare abstract method.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
+Ans: we cant create object of abstract class.
+what is access specifier?
+Ans:The access to classes, constructors, methods and fields are regulated using access modifiers i.e. a class can control what information or data can be accessible by other classes. ... A member has package or default accessibility when no accessibility modifier is specified.
 What is OOP ? Define each feature of java OOP.
+Ans: Object-oriented programming (OOP) is a programming language model organized around objects rather than "actions" and data rather than logic. Historically, a program has been viewed as a logical procedure that takes input data, processes it, and produces output data.
+Object:Any entity that has state and behavior is known as an object.
+Class: Collection of objects is called class. It is a logical entity.
+Inheritance: When one object acquires all the properties and behaviours of parent object
+Polymorphism: When one task is performed by different ways. we use method overloading and method overriding to achieve polymorphism.
+Abstraction: Hiding internal details and showing functionality is known as abstraction
+Encapsulation: Binding (or wrapping) code and data together into a single unit is known as encapsulation.
 What is API? Name list of API that you have used so far.
+Ans: Application Programming Interafce
 Does java support multiple inheritance?
+Ans: No.
 What is method overloading and when it happens?
+Ans: Overloading occurs when two or more methods in one class have the same method name but different parameters. Overriding means having two methods with the same method name and parameters
 What is method overriding and when it happens?
+Ans: Method Overridding-->Happens in Run time
 Explain exceptions in java and how to handle it.
+Ans: Try-catch in Java
+Nested Try Catch
+Checked and unchecked exceptions
+Finally block in Java
+try-catch-finally
+finally block & return statement
+Throw exception in Java
+Example of throw keyword
+Example of throws clause
+Throws in Java
+throw vs throws
+Exception handling examples
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
